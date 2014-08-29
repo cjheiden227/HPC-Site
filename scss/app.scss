@@ -38,3 +38,28 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+body{
+	font-variant: small-caps;
+}
+
+#logo{
+	height: 80px;
+}
+#jumbotron{
+	background: url("./img/bg1.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0)
+		// background-image: url("jumbo_placeholder.jpg");
+		// background-size: auto 100%;
+  //       background-repeat: no-repeat;
+  //       background-position: left top;
+  //       height: 100%;
+
+}
+.f-topbar-fixed {
+    @media #{$small-only} {
+        padding-top: 80px !important;
+    }
+
+    @media #{$large-up} {
+        padding-top: 80px !important;
+    }
+}
