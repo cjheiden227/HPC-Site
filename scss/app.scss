@@ -48,3 +48,11 @@
         padding-top: 80px !important;
     }
 }
+
+// Override Magellan Padding
+[data-magellan-expedition] ,[data-magellan-expedition-clone] {
+	background:#0b1042;
+	z-index:50;
+	min-width:100%;
+	padding:0px;
+}

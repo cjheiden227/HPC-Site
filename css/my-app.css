@@ -44,5 +44,27 @@ body{
 }
 
 .buttons{
-	margin-top: 20px;
+	margin-top: 30px;
+}
+
+.services{
+	margin-top: 80px;
+	border-bottom: 2px solid #0b1042;
+}
+
+.service-content{
+	margin-top: 30px;
+}
+
+.service-icon{
+	border: 2px solid #0b1042;
+}
+
+#sub_content h1, #sub_content h2, #sub_content h3, #sub_content h4, #sub_content h5, #sub_content h6,
+#sub_content p, #sub_content span{
+	color: #0b1042;
+}
+
+#sub_content{
+	text-align: center;
 }
