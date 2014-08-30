@@ -134,6 +134,16 @@ body{
 #sub_content{
 	text-align: center;
 }
+
+.title>li{
+	display: table;
+}
+
+.title h3{
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .header{
 	margin-top: 80px;
 	border-top: 1px solid #6C6F8D;
