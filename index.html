@@ -10,7 +10,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-  <div id="magellan" data-magellan-expedition="fixed">
+  <div class="navbarWrapper sticky">
     <nav class="navbar top-bar" data-topbar role="navigation"> 
       <ul class="title-area">
         <li class="name"> 
@@ -21,12 +21,10 @@
       <section class="top-bar-section">
         <!-- Left Nav Section -->
         <ul class="left">
-          <a name="home"></a>
-          <div data-magellan-destination="home"></div>
-          <li><a data-magellan-arrival="home" href="#home">Home</a></li>
-          <li><a data-magellan-arrival="services" href="#services">Our Services</a></li>
-          <li><a data-magellan-arrival="locations" href="#locations">Our Locations</a></li>
-          <li><a data-magellan-arrival="contact" href="#contact">Contact Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#locations">Our Locations</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
 
       </section>
@@ -34,11 +32,13 @@
      </nav>
    </div>
    <!-- End Navigation -->
+
    
    <!-- Jumbotron -->
-   <div id="jumbotron">
+   <div id="home" class="scrollto jumbotron">
+    
       <img  src="img/jumbo_bg.jpg">
-      <div class="jumbo-container">
+
       <div class="banner">
          <div class="row">
             <div class="large-12  columns">
@@ -58,42 +58,42 @@
           </div>
         </div>
       </div>
-   </div>
   <!-- End Jumbotron -->
   <div id="sub_content">
-    <div class="row">
-      <div class="large-12 columns">
-          <a name="services"></a>
-          <div class="services">
-            <h1 data-magellan-destination="services">Our Services</h1>
-          </div>
-          <div class="service-content">
-            <div class="row">
-              <div class="large-4 columns">
-                <h3>Social Security</h3>
-                <div class="service-icon">
-                  <img src="img/icon1.jpg" />
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-              </div>
-              <div class="large-4 columns">
-                <h3>Workers' Compensation</h3>
-                <div class="service-icon">
-                  <img src="img/icon2.jpg" />
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-              </div>
-              <div class="large-4 columns">
-                <h3>Psychotherapy</h3>
-                <div class="service-icon">
-                  <img src="img/icon3.jpg" />
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
-                </p>
-              </div>
+    <div id="services" class="scrollto">
+      <div class="row">
+        <div class="large-12 columns"> 
+            <div class="services">
+              <h1 data-magellan-destination="services">Our Services</h1>
+            </div>
+            <div class="service-content">
               <div class="row">
-                <div class="small-12 text-center columns">
-                      <h1 href="#" class="button radius large">Schedule Appointment</h1>              
+                <div class="large-4 medium-6 small-12 columns">
+                  <h3>Social Security</h3>
+                  <div class="service-icon">
+                    <img src="img/icon1.jpg" />
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.4</p>
+                </div>
+                <div class="large-4 medium-6 small-12 columns">
+                  <h3>Workers' Compensation</h3>
+                  <div class="service-icon">
+                    <img src="img/icon2.jpg" />
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                </div>
+                <div class="small-centered large-uncentered large-4 medium-6 small-12 columns">
+                  <h3>Psychotherapy</h3>
+                  <div class="service-icon">
+                    <img src="img/icon3.jpg" />
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="small-12 text-center columns">
+                        <h1 href="#" class="alt-button button radius large">Schedule Appointment</h1>              
+                  </div>
                 </div>
               </div>
             </div>
@@ -105,7 +105,15 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-     <script src="bower_components/foundation/js/foundation.magellan.js"></script>
+    <script src="bower_components/stickyNavbar/jquery.stickyNavbar.min.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      $(function () {
+        if(! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+             $('.navbarWrapper').stickyNavbar();
+        }
+       
+      });
+    </script>
   </body>
 </html>
