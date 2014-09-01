@@ -10,7 +10,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-  <div class="navbarWrapper sticky">
+  <div class="navbarWrapper">
     <nav class="navbar top-bar" data-topbar role="navigation"> 
       <ul class="title-area">
         <li class="name"> 
@@ -36,12 +36,11 @@
    
    <!-- Jumbotron -->
    <div id="home" class="scrollto jumbotron">
-    
-      <img  src="img/jumbo_bg.jpg">
+   <!--    <img  src="img/jumbo_bg.jpg"> -->
 
       <div class="banner">
          <div class="row">
-            <div class="large-12  columns">
+            <div class="small-12  columns">
               <h1 class="banner-text">Hamlin Psyche Center</h1>
               <div class="row">
                 <div class="small-12 small-centered columns divider"></div>
@@ -50,7 +49,7 @@
                   </h4>
                 </div>
                 <div class="small-12 small-centered text-center columns buttons">
-                    <a href="#" class="button radius large">Schedule Appointment</a>
+                    <a href="#" class="button radius large">Get an Appointment</a>
                     <a href="#" class="button radius large">Learn More</a>               
                 </div>
               </div>
@@ -60,31 +59,30 @@
       </div>
   <!-- End Jumbotron -->
   <div id="sub_content">
-    <div id="services" class="scrollto">
-      <div class="row">
-        <div class="large-12 columns"> 
-            <div class="services">
-              <h1 data-magellan-destination="services">Our Services</h1>
+    <div id="services" class="row scrollto">
+        <div class="small-12 columns"> 
+            <div class="header">
+              <h1>Our Services</h1>
             </div>
-            <div class="service-content">
+            <div class="content">
               <div class="row">
                 <div class="large-4 medium-6 small-12 columns">
                   <h3>Social Security</h3>
-                  <div class="service-icon">
+                  <div class="big-icon">
                     <img src="img/icon1.jpg" />
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.4</p>
                 </div>
                 <div class="large-4 medium-6 small-12 columns">
                   <h3>Workers' Compensation</h3>
-                  <div class="service-icon">
+                  <div class="big-icon">
                     <img src="img/icon2.jpg" />
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
                 </div>
-                <div class="small-centered large-uncentered large-4 medium-6 small-12 columns">
-                  <h3>Psychotherapy</h3>
-                  <div class="service-icon">
+                <div class="large-4 medium-6 small-12 columns">
+                  <h3>Treatment Services</h3>
+                  <div class="big-icon">
                     <img src="img/icon3.jpg" />
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac finibus tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
@@ -92,12 +90,57 @@
                 </div>
                 <div class="row">
                   <div class="small-12 text-center columns">
-                        <h1 href="#" class="alt-button button radius large">Schedule Appointment</h1>              
+                        <h1 href="#" class="alt-button button radius large">Get an Appointment</h1>              
                   </div>
                 </div>
               </div>
             </div>
           </div>
+      </div>
+    <div id="locations" class="row scrollto">
+      <div class=" small-12 columns">
+        <div class="header">
+              <h1>Our Locations</h1>
+        </div>
+      
+        <div class="content">
+          <div class="row">
+            <div class="large-4 columns">
+              <div class="row">
+                <div class="small-12 columns">
+                 <a class="map-link" data-map="14531 Hamlin Street Van Nuys CA 91411">Van Nuys</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="small-12 columns">
+                  <a class="map-link" data-map="4300 Long Beach Blvd. Long Beach CA 90807">Long Beach</a>
+                </div>
+              </div>
+            </div>
+            <div class="large-8 columns">
+              <div class="row">
+                 <iframe class="map-target small-12 columns big-icon"
+                    height="500"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCnXy5N52r2BsyqhjIU-T4shbIqgeaf34g&q=14531+Hamlin+Street+Van+Nuys+CA+91411">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="row scrollto">
+      <div class=" small-12 columns">
+        <div class="header">
+              <h1>Contact Us</h1>
+        </div>
+      
+        <div class="content">
+          <div class="row">
+            
+          </div>
+        </div>
       </div>
     </div>
   </div>
