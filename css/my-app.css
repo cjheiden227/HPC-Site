@@ -5,6 +5,7 @@ body{
 
 #logo{
 	height: 80px;
+	cursor: initial;
 }
 
 .navbarWrapper{
@@ -56,7 +57,7 @@ body{
 }
 
 .header{
-	margin-top: 40px;
+	margin-top: 80px;
 	border-bottom: 2px solid #0b1042;
 }
 
@@ -80,10 +81,61 @@ body{
 
 
 .alt-button{
+	color:#0b1042;
 	background-color: #EBECFF !important;
 	border: 2px solid #0b1042;
 }
 
 .alt-button:hover{
+	color:#0b1042;
 	background-color: #d6d8ff !important;
+}
+
+label{
+	text-align: left;
+}
+
+.anchor{
+	display: block; 
+	position: relative; 
+	top: -70px; 
+	visibility: hidden;
+}
+
+footer{
+
+	height: 40%;
+	background-color: #0b1042;
+	color: #d6d8ff;
+}
+.footer-padding{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+.footer-nav{
+	list-style-type: none;
+	padding-top: 60px;
+}
+.footer-nav li>a{
+	color: #d6d8ff;
+}
+
+.footer-nav li>a:hover{
+	text-decoration: underline;
+}
+
+.footer-text>p{
+	margin-bottom: 0 !important;
+	font-size: .9rem;
+}
+
+.footer-text>h4{
+	margin-bottom: 0;
+}
+
+.border{
+	content: "";
+	height: 225px;
+	border-right: 2px solid #d6d8ff;
 }
