@@ -39,12 +39,34 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-.f-topbar-fixed {
-    @media #{$small-only} {
-        padding-top: 80px !important;
-    }
+//Tweak small text styles
 
-    @media #{$large-up} {
-        padding-top: 80px !important;
+h1 {
+    @media #{$small-only} {
+         font-size: 1.9rem !important;
+    }
+}
+
+h4 {
+    @media #{$small-only} {
+         font-size: .9rem !important;
+    }
+}
+
+.footer-text>h3{
+	  @media #{$small-only} {
+         font-size: 1rem !important;
+    }
+}
+
+.footer-text p{
+	  @media #{$small-only} {
+         font-size: .6rem !important;
+    }
+}
+
+.footer-nav{
+	@media #{$small-only} {
+         font-size: .9rem !important;
     }
 }

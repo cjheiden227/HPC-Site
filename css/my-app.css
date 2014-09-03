@@ -130,7 +130,7 @@ footer{
 	font-size: .9rem;
 }
 
-.footer-text>h4{
+.footer-text>h3{
 	margin-bottom: 0;
 }
 
@@ -138,4 +138,11 @@ footer{
 	content: "";
 	height: 225px;
 	border-right: 2px solid #d6d8ff;
+}
+
+#phone{
+	/*display: block;*/
+	width: 85%;
+
+
 }

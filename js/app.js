@@ -1,5 +1,7 @@
+//Initialize Foundation
 $(document).foundation();
 
+//Grab map coordinates from link
 $(document).ready(function(){
 	
     $('.map-link').on('click', function(e){
@@ -11,7 +13,9 @@ $(document).ready(function(){
     });
 });
 
+//Initialize the sticky navbar
 $('.navbarWrapper').stickyNavbar({
 	startAt: 0,
-	selector: "a"
+	selector: "a",
+
 });
