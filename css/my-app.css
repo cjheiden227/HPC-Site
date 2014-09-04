@@ -160,7 +160,7 @@ footer{
 
 }
 
-@media (orientation:portrait){
+@media (orientation:portrait) {
 	.jumbotron{
 		height: 55%;
 	}
@@ -172,4 +172,15 @@ footer{
 	.alt-border{
 		border: none;
 	}
+}
+
+@media (min-height: 900px) {
+	.jumbotron{
+		height: 55%;
+	}
+
+	footer{
+		height: 25%;
+	}
+
 }
