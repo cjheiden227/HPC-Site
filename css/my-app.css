@@ -91,6 +91,9 @@ body{
 	background-color: #d6d8ff !important;
 }
 
+.map-button{
+	padding-bottom: 20px;
+}
 label{
 	text-align: left;
 }
@@ -103,7 +106,7 @@ label{
 }
 
 footer{
-
+	position: relative;
 	height: 40%;
 	background-color: #0b1042;
 	color: #d6d8ff;
@@ -115,7 +118,7 @@ footer{
 }
 .footer-nav{
 	list-style-type: none;
-	padding-top: 60px;
+	
 }
 .footer-nav li>a{
 	color: #d6d8ff;
@@ -134,15 +137,39 @@ footer{
 	margin-bottom: 0;
 }
 
+.full-height{
+		height: 100%;
+		position: absolute;
+}
+
+.full-height:last-child{
+	right: 0;
+}
+
 .border{
-	content: "";
-	height: 225px;
+	
 	border-right: 2px solid #d6d8ff;
 }
 
+.alt-border{
+	border-right: 2px solid #0b1042;
+}
 #phone{
 	/*display: block;*/
 	width: 85%;
 
+}
 
+@media (orientation:portrait){
+	.jumbotron{
+		height: 55%;
+	}
+
+	footer{
+		height: 25%;
+	}
+
+	.alt-border{
+		border: none;
+	}
 }

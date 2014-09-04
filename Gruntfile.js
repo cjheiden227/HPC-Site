@@ -19,10 +19,15 @@ module.exports = function(grunt) {
 
     copy: {
       main: {
-        expand: true,
-        cwd: 'bower_components',
-        src: '**',
-        dest: 'js'
+        
+        files: [
+          // includes files within path1
+          {cwd: 'bower_components/', expand: true, src: ['foundation/js/*'], dest: 'js/vendor/', filter: 'isFile'},
+          {cwd: 'bower_components/', expand: true, src: ['jquery/dist/*'], dest: 'js/vendor/'},
+          {cwd: 'bower_components/', expand: true, src: ['modernizr/dist/*'], dest: 'js/vendor/', filter: 'isFile'},
+          {cwd: 'bower_components/', expand: true, src: ['stickyNavbar/*'], dest: 'js/vendor/', filter: 'isFile'},
+
+        ]
       },
     },
 
