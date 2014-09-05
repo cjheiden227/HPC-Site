@@ -96,8 +96,16 @@ body{
 }
 
 .map-button{
+	position: relative;
 	padding-bottom: 20px;
 }
+
+.map-overlay{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
 label{
 	text-align: left;
 }
