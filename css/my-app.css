@@ -85,6 +85,7 @@ body{
 
 
 .alt-button{
+
 	color:#0b1042;
 	background-color: #EBECFF !important;
 	border: 2px solid #0b1042;
@@ -104,6 +105,11 @@ body{
 	position: absolute;
 	top: 25%;
 	left: 25%;
+}
+
+.realbig-icon{
+	font-size: 90px;
+	color: #0b1042;
 }
 
 label{
@@ -126,7 +132,7 @@ footer{
 	background-color: #0b1042;
 	color: #d6d8ff;
 }
-.footer-padding{
+.vertical-center{
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
@@ -169,6 +175,7 @@ footer{
 }
 
 .alt-border{
+	height: 550px;
 	border-right: 2px solid #0b1042;
 }
 #phone{
