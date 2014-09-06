@@ -10,6 +10,13 @@ body{
 
 .navbarWrapper{
 	width: 100%;
+
+}
+
+.shadow{
+	-webkit-box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
+	-moz-box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
+	box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
 }
 .jumbotron{
 	height: 100%;
@@ -184,8 +191,10 @@ footer{
 
 }
 
-#message{
-	height: 150px;
+.footer-shadow{
+		-webkit-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
+	-moz-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
+	box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 }
 @media (orientation:portrait) {
 	.jumbotron{
