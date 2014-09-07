@@ -13,10 +13,18 @@ body{
 
 }
 
+.left li>a{
+	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all .2s ease-in-out;
+}
+.left li>a:hover{
+	text-decoration: underline;
+}
+
 .shadow{
-	-webkit-box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
-	-moz-box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
-	box-shadow: 0px 0.5px 3px 1px rgba(11,26,111,1);
+	-webkit-box-shadow: 0px 0.5px 3px -1px rgba(11,26,111,1);
+	-moz-box-shadow: 0px 0.5px 3px -1px rgba(11,26,111,1);
+	box-shadow: 0px 0.5px 3px -1px rgba(11,26,111,1);
 }
 .jumbotron{
 	height: 100%;
@@ -192,7 +200,7 @@ footer{
 }
 
 .footer-shadow{
-		-webkit-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
+	-webkit-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 	-moz-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 	box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 }
