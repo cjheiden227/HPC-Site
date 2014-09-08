@@ -113,13 +113,14 @@ body{
 
 .map-button{
 	position: relative;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .mapWrap {
   position: relative;
   width: 300px;
   height: 225px;
+  margin-left: 12%;
 
 }
 
@@ -157,6 +158,10 @@ body{
 .mapWrap:hover .mapDescriptionWrapper {
   visibility: visible;
   opacity: 1;
+}
+
+.map-target{
+	height: 500px;
 }
 .realbig-icon{
 	font-size: 90px;
@@ -240,6 +245,10 @@ footer{
 	-moz-box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 	box-shadow: 0.5px 0.0px 3px 1px rgba(11,26,111,1);
 }
+
+/*Media queries for different devices*/
+
+
 @media (orientation:portrait) {
 	.jumbotron{
 		height: 55%;
@@ -249,12 +258,75 @@ footer{
 		height: 25%;
 	}
 }
+/* Smartphones (portrait and landscape) ----------- */
 
-@media (min-width: 768px) and (max-width: 1150px){
-	.alt-border{
-		border: none;
+@media (min-height: 320px) and (max-width: 480px){
+
+	.header{
+		margin-top: 40px;
+	}
+	button.large, .button.large{
+		padding: .9rem 2.025rem .9625rem;
+		font-size: .9rem;
+	}
+	footer{
+		height: 50%;
+	}
+	h1{
+		font-size: 1.5rem !important;
+
+	}
+
+	h4{
+		font-size: .7rem !important;
+	}
+	h3{
+		font-size: .825rem;
+	}
+
+	h5{
+		font-size: 1rem;
+	}
+	.s-para p{
+		font-size: .435rem;
+	}
+	.map-target{
+		height: 250px;
+	}
+
+	.mapWrap{
+		width: 100px;
+		height: 75px;
+	}
+
+
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media (min-width: 321px){
+	.jumbotron{
+		height: 130%;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 320px) {
+	.jumbotron{
+		height: 100%;
+	}
+
+	.mapWrap{
+		margin-left: 0;
+	}
+
+	.footer-nav{
+		font-size: .75rem !important;s
 	}
 }
+
+
 
 @media (min-height: 900px) {
 	.jumbotron{
@@ -263,6 +335,28 @@ footer{
 
 	footer{
 		height: 25%;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media (min-width: 768px) and (max-width: 1150px) and (orientation : portrait){
+	.alt-border{
+		border: none;
+	}
+		.jumbotron{
+		height: 55%;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1150px) and (orientation : landscape){
+	.alt-border{
+		border: none;
+	}
+		.jumbotron{
+		height: 75%;
 	}
 
 }
