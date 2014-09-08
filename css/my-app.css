@@ -135,6 +135,11 @@ body{
 }
 /*END SUB-CONTENT STYLES*/
 
+.ad{
+	margin-top: 40px;
+/*	border-top: 1px solid #6C6F8D;*/
+	border-bottom: 1px solid #6C6F8D;
+}
 
 /*MAP STYLES*/
 .map-button{
@@ -248,7 +253,7 @@ footer{
 }
 
 .full-height:first-child{
-	left: 0;
+	left: 2.25%;
 }
 
 .full-height:last-child{
