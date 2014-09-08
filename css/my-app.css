@@ -141,6 +141,12 @@ body{
 	border-bottom: 1px solid #6C6F8D;
 }
 
+.alt-text{
+
+	font-weight: 700;
+
+}
+
 /*MAP STYLES*/
 .map-button{
 	position: relative;
