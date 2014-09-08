@@ -104,7 +104,8 @@ body{
 }
 .header{
 	margin-top: 80px;
-	border-bottom: 2px solid #0b1042;
+	border-top: 1px solid #6C6F8D;
+	border-bottom: 1px solid #6C6F8D;
 }
 
 .subheader{
@@ -113,6 +114,7 @@ body{
 
 .content{
 	margin-top: 30px;
+	/*border-bottom: 1px solid #9D9FB3; */
 }
 
 .alt-button{
