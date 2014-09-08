@@ -287,7 +287,7 @@ footer{
 	h5{
 		font-size: 1rem;
 	}
-	.s-para p{
+	.s-para{
 		font-size: .435rem;
 	}
 	.map-target{
@@ -360,3 +360,5 @@ footer{
 	}
 
 }
+
+
