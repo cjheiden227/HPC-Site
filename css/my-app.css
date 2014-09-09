@@ -83,6 +83,12 @@ body{
 	text-align: center;
 }
 
+.banner-sub{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+}
+
 .divider{
 	border-top: 2px solid #EBECFF;
 	width: 65%;
@@ -137,6 +143,7 @@ body{
 
 .ad{
 	margin-top: 40px;
+	text-align: center;
 /*	border-top: 1px solid #6C6F8D;*/
 	border-bottom: 1px solid #6C6F8D;
 }
@@ -283,7 +290,11 @@ footer{
 @media (orientation:portrait) {
 
 	.jumbotron{
-		height: 55%;
+		height: 65%;
+	}
+
+		.banner-sub>p{
+		font-size: .75rem;
 	}
 
 	footer{
@@ -321,11 +332,28 @@ footer{
 	}
 
 	h4{
-		font-size: .7rem !important;
+		font-size: .8rem !important;
 	}
 
 	h5{
 		font-size: .65rem;
+	}
+
+	.banner-text{
+		margin-bottom: .2rem;
+	}
+
+	.divider{
+		width: 100%;
+	}
+
+	.banner-sub{
+
+		max-width: 100%;
+	}
+
+	.banner-sub>p{
+		font-size: .6rem;
 	}
 
 	.s-para{
@@ -364,6 +392,14 @@ footer{
 		font-size:.55rem;
 	}
 
+	.realbig-icon{
+		font-size: 65px;
+	}
+
+	li>h4{
+		font-size: .8rem !important;
+	}
+
 }
 
 
@@ -399,11 +435,20 @@ footer{
 @media (min-width: 361px) and (max-width: 640px) and (max-height: 480px) {
 	
 	.jumbotron{
-		height: 130%;
+		height: 140%;
 	}
 
 	.map-target{
 		height: 300px;
+	}
+
+	button.large, .button.large{
+		padding: .9rem 1.925rem .9625rem;
+		font-size: .9rem;
+	}
+
+	.banner-sub>p{
+		font-size: .65rem;
 	}
 
 	.mapWrap{
@@ -430,7 +475,7 @@ footer{
 @media (max-width : 320px) {
 
 	.jumbotron{
-		height: 90%;
+		height: 100%;
 	}
 
 	.mapWrap{
@@ -456,7 +501,7 @@ footer{
 @media (min-height: 481px) and (max-height: 640px){
 
 	.jumbotron{
-		height: 80%;
+		height: 90%;
 	}
 
 	footer{
@@ -470,7 +515,7 @@ footer{
 
 
 	.jumbotron{
-		height: 55%;
+		height: 60%;
 	}
 
 	.mapWrap{
