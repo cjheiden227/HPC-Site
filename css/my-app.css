@@ -100,6 +100,15 @@ body{
 /*End JUMBOTRON STYLES*/
 
 /*SUB-CONTENT STYLES; inverted colors from jumbotron*/
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+   overflow-x: hidden;
+}
+
 #sub_content h1, #sub_content h2, #sub_content h3, #sub_content h4, #sub_content h5, #sub_content h6,
 #sub_content p, #sub_content span{
 	color: #0b1042;
@@ -144,19 +153,21 @@ body{
 }
 /*END SUB-CONTENT STYLES*/
 
-.ad{
-	margin-top: 40px;
+
+
+.pane{
 	text-align: center;
 	border-top: 1px solid #6C6F8D;
 	border-bottom: 1px solid #6C6F8D;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
-
-.title>li{
+.pane>li{
 	border-right: 1px solid #6C6F8D;
 	padding-bottom: 0;
 }
 
-.title>li:last-child{
+.pane>li:last-child{
 	border-right: none;
 }
 

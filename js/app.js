@@ -1,7 +1,7 @@
 //Initialize Foundation
 $(document).foundation();
 
-    //Initialize the sticky navbar
+//Initialize the sticky navbar
 $('.navbarWrapper').stickyNavbar({
         startAt: 0,
         selector: "a",
