@@ -132,11 +132,14 @@ body{
 
 .alt-button:hover{
 	color:#0b1042;
-	background-color: #d6d8ff !important;
+	background-color: #BCBCCC !important;
 }
 
 .big-icon{
-	border: 2px solid #0b1042;
+	border: 1px solid #0b1042;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
+-moz-box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
+box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
 	padding: 0;
 }
 /*END SUB-CONTENT STYLES*/
@@ -223,7 +226,7 @@ footer{
 	position: relative;
 	height: 40%;
 	background-color: #0b1042;
-	color: #d6d8ff;
+	color: #EBECFF;
 }
 
 .vertical-center{
@@ -238,7 +241,7 @@ footer{
 }
 
 .footer-nav li>a{
-	color: #d6d8ff;
+	color: #EBECFF;
 }
 
 .footer-nav li>a:hover{
@@ -269,12 +272,12 @@ footer{
 
 .border{
 	
-	border-right: 2px solid #d6d8ff;
+	border-right: 2px solid #EBECFF;
 }
 
 .alt-border{
 	height: 550px;
-	border-right: 2px solid #0b1042;
+	border-right: 1px solid #6C6F8D;
 }
 
 .footer-shadow{
