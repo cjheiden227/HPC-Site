@@ -147,8 +147,17 @@ box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
 .ad{
 	margin-top: 40px;
 	text-align: center;
-/*	border-top: 1px solid #6C6F8D;*/
+	border-top: 1px solid #6C6F8D;
 	border-bottom: 1px solid #6C6F8D;
+}
+
+.title>li{
+	border-right: 1px solid #6C6F8D;
+	padding-bottom: 0;
+}
+
+.title>li:last-child{
+	border-right: none;
 }
 
 /*MAP STYLES*/
