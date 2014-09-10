@@ -8,7 +8,7 @@ body{
 
 /*Logo styling*/
 #logo{
-	height: 80px;
+	height: 75px;
 	cursor: initial;
 }
 
@@ -156,6 +156,9 @@ body{
 }
 /*END SUB-CONTENT STYLES*/
 
+.s-para{
+	padding-top: 10px;
+}
 
 
 .pane{
