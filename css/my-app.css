@@ -127,6 +127,9 @@ body{
 	margin-bottom: 20px !important;
 }
 
+.section-footer{
+	margin-top: 60px;
+}
 .content{
 	margin-top: 30px;
 	/*border-bottom: 1px solid #9D9FB3; */
