@@ -7,11 +7,15 @@ body{
 /*NAVBAR STYLES */
 
 /*Logo styling*/
-#logo{
-	height: 75px;
-	cursor: initial;
-}
 
+#logo{
+	height: 77px;
+	
+}
+#logo-link{
+	padding: 0;
+	margin-top: -3.5px;
+}
 /*Keep the navbar 100% width*/
 .navbarWrapper{
 	width: 100%;
@@ -130,6 +134,11 @@ body{
 .section-footer{
 	margin-top: 60px;
 }
+
+.section-footer-logo{
+	width: 50%;
+}
+
 .content{
 	margin-top: 30px;
 	/*border-bottom: 1px solid #9D9FB3; */
