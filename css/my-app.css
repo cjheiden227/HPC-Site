@@ -96,6 +96,7 @@ body{
 .divider{
 	border-top: 2px solid #EBECFF;
 	width: 65%;
+	margin-top: -1%;
 }
 
 .buttons{
@@ -133,8 +134,13 @@ body{
 
 .section-footer{
 	margin-top: 60px;
+	-webkit-transition: all 0.2s;
+	transition: all  0.2s;
 }
 
+.section-footer:hover{
+	transform:scale(1.025,1.025);
+}
 .section-footer-logo{
 	width: 50%;
 }
