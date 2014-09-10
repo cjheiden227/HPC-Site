@@ -160,13 +160,13 @@ body{
 
 .pane{
 	text-align: center;
-	border-top: 1px solid #6C6F8D;
-	border-bottom: 1px solid #6C6F8D;
+	border-top: 1px dotted #6C6F8D;
+	border-bottom: 1px dotted #6C6F8D;
 	margin-top: 60px;
 	margin-bottom: 40px;
 }
 .pane>li{
-	border-right: 1px solid #6C6F8D;
+	border-right: 1px dotted #6C6F8D;
 	padding-bottom: 0;
 }
 
