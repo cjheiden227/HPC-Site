@@ -172,6 +172,10 @@ div>.big-icon{
 	max-width: 85%;
 
 }
+
+.big-icon>img{
+	width: 100%;
+}
 /*END SUB-CONTENT STYLES*/
 
 .s-para{
@@ -257,6 +261,7 @@ div>.big-icon{
 
 .map-target{
 	height: 500px;
+	max-width: 100% !important;
 }
 
 /*END MAP STYLES*/
