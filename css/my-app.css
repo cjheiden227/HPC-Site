@@ -9,7 +9,7 @@ body{
 /*Logo styling*/
 
 #logo{
-	height: 77px;
+	height: 79px;
 	
 }
 #logo-link{
@@ -133,13 +133,11 @@ body{
 }
 
 .section-footer{
-	margin-top: 60px;
-	-webkit-transition: all 0.2s;
-	transition: all  0.2s;
+	margin-top: 40px;
 }
+.section-footer-link:hover{
 
-.section-footer:hover{
-	transform:scale(1.025,1.025);
+	text-decoration: underline;
 }
 .section-footer-logo{
 	width: 50%;
@@ -151,7 +149,7 @@ body{
 }
 
 .alt-button{
-
+	margin: 20px 0 20px 0;
 	color:#0b1042;
 	background-color: #EBECFF !important;
 	border: 2px solid #0b1042;
@@ -169,10 +167,25 @@ body{
 	box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
 	padding: 0;
 }
+
+div>.big-icon{
+	max-width: 85%;
+
+}
 /*END SUB-CONTENT STYLES*/
 
 .s-para{
 	padding-top: 10px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.margin-top-40{
+	margin-top: 40px;
+}
+
+.padding-20, .padding-20>li{
+	padding-top: 20px;
 }
 
 
@@ -270,6 +283,10 @@ footer{
 	color: #EBECFF;
 }
 
+#footer-logo{
+	width: 6.25%;
+}
+
 .vertical-center{
 	position: relative;
   	top: 50%;
@@ -317,8 +334,16 @@ footer{
 }
 
 .alt-border{
+	
+	border-right: 1px dotted #6C6F8D;
+}
+
+.alt-border:last-child{
+	border: none;
+}
+
+.contact-form{
 	height: 550px;
-	border-right: 1px solid #6C6F8D;
 }
 
 .footer-shadow{
@@ -549,7 +574,7 @@ footer{
 	}
 
 	footer{
-		height: 35%;
+		height: 40%;
 	}
 
 }
