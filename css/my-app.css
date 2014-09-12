@@ -71,16 +71,24 @@ body{
 .banner{
 	position: absolute;
 	width: 100%;
-	height: 55%;
+	height: 100%;
 	color:#EBECFF;
-	background: -moz-linear-gradient(top, rgba(11,16,66,0.76) 0%, rgba(11,16,66,0.91) 30%, rgba(11,16,66,1) 58%, rgba(11,16,66,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(11,16,66,0.76)), color-stop(30%,rgba(11,16,66,0.91)), color-stop(58%,rgba(11,16,66,1)), color-stop(100%,rgba(11,16,66,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(11,16,66,0.76) 0%,rgba(11,16,66,0.91) 30%,rgba(11,16,66,1) 58%,rgba(11,16,66,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(11,16,66,0.76) 0%,rgba(11,16,66,0.91) 30%,rgba(11,16,66,1) 58%,rgba(11,16,66,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(11,16,66,0.76) 0%,rgba(11,16,66,0.91) 30%,rgba(11,16,66,1) 58%,rgba(11,16,66,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(11,16,66,0.76) 0%,rgba(11,16,66,0.91) 30%,rgba(11,16,66,1) 58%,rgba(11,16,66,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c20b1042', endColorstr='#0b1042',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top, rgba(11,16,66,0.4) 0%, rgba(11,16,66,0.7) 17%, rgba(11,16,66,0.9) 53%, rgba(11,16,66,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(11,16,66,0.4)), color-stop(17%,rgba(11,16,66,0.7)), color-stop(53%,rgba(11,16,66,0.9)), color-stop(100%,rgba(11,16,66,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(11,16,66,0.4) 0%,rgba(11,16,66,0.7) 17%,rgba(11,16,66,0.9) 53%,rgba(11,16,66,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(11,16,66,0.4) 0%,rgba(11,16,66,0.7) 17%,rgba(11,16,66,0.9) 53%,rgba(11,16,66,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(11,16,66,0.4) 0%,rgba(11,16,66,0.7) 17%,rgba(11,16,66,0.9) 53%,rgba(11,16,66,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(11,16,66,0.4) 0%,rgba(11,16,66,0.7) 17%,rgba(11,16,66,0.9) 53%,rgba(11,16,66,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660b1042', endColorstr='#0b1042',GradientType=0 ); /* IE6-9 */
 	bottom: 0;
+}
+
+.banner-area{
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	margin-left: auto;
+	margin-right: auto
 }
 
 .banner-text{
