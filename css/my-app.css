@@ -253,6 +253,18 @@ div>.big-icon{
   
 }
 
+.initial-title{
+	background-color: rgba(11, 16, 66, 1);
+	color: #FFF !important;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	font-size: 1.5rem;
+	opacity: 0.75;
+
+
+}
+
 .mapDescription{
 	width: 300px;
 	position: absolute;
@@ -269,6 +281,10 @@ div>.big-icon{
 .mapWrap:hover .mapDescriptionWrapper {
   visibility: visible;
   opacity: 1;
+}
+
+.mapWrap:hover .initial-title {
+  visibility: hidden;
 }
 
 .map-target{
