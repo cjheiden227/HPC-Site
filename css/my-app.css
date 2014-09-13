@@ -495,7 +495,7 @@ footer{
 
 	}
 
-	.mapDescription p{
+	.mapDescription p, .initial-title{
 		font-size:.55rem;
 	}
 
@@ -572,7 +572,7 @@ footer{
 
 	}
 
-	.mapDescription p{
+	.mapDescription p, .initial-title{
 		font-size:.75rem;
 	}
 

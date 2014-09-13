@@ -1,0 +1,645 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"n",
+				"pointer"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"nav",
+				"hpc-navy"
+			],
+			[
+				"off",
+				"off-white"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"get_",
+				"get_cell_number"
+			],
+			[
+				"coo",
+				"coordinates"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"get",
+				"get_coordinates"
+			],
+			[
+				"cell",
+				"cell_in_board"
+			],
+			[
+				"print",
+				"print_cells"
+			],
+			[
+				"fin",
+				"find_position"
+			],
+			[
+				"set",
+				"set_token_position"
+			],
+			[
+				"co",
+				"coordinate"
+			],
+			[
+				"player2",
+				"player2_name"
+			],
+			[
+				"assign",
+				"assign_players"
+			],
+			[
+				"player",
+				"player2"
+			],
+			[
+				"crea",
+				"create_cells"
+			],
+			[
+				"create",
+				"create_board"
+			],
+			[
+				"attr",
+				"attr_reader"
+			],
+			[
+				"require",
+				"require_login"
+			],
+			[
+				"author",
+				"author_sessions"
+			],
+			[
+				"pass",
+				"password_field"
+			],
+			[
+				"article",
+				"article_path"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"artic",
+				"article_params"
+			],
+			[
+				"art",
+				"Article"
+			],
+			[
+				"arti",
+				"article_path"
+			],
+			[
+				"z",
+				"zeroify"
+			],
+			[
+				"title",
+				"title_words"
+			],
+			[
+				"un",
+				"unimportant_words"
+			],
+			[
+				"mu",
+				"multiply"
+			],
+			[
+				"mutlip",
+				"multiply"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"color",
+				"border-color"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"high",
+				"highCelsius"
+			],
+			[
+				"day",
+				"daysCollection"
+			],
+			[
+				"go",
+				"goToHome"
+			],
+			[
+				"navbar",
+				"navbar-text"
+			],
+			[
+				"dash",
+				"onNavDash"
+			],
+			[
+				"nav-",
+				"nav-about"
+			],
+			[
+				"a",
+				"App"
+			],
+			[
+				"buil",
+				"buildHTMLFrag"
+			],
+			[
+				"getItem",
+				"getitemIndex"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"id",
+				"id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/chris/Projects/my_gulp_project/gulpfile.js",
+		"/home/chris/Projects/Hamlin-Sass/css/my-app.css",
+		"/home/chris/Projects/Hamlin-Sass/index.html",
+		"/home/chris/Projects/Hamlin-Sass/scss/_settings.scss",
+		"/home/chris/Projects/Hamlin-Sass/foundation-icons/foundation-icons.css",
+		"/home/chris/Projects/Hamlin-Sass/foundation-icons/preview.html",
+		"/home/chris/Projects/Hamlin-Sass/js/app.js",
+		"/home/chris/Projects/Hamlin-Sass/contact/contact_me.php",
+		"/home/chris/Projects/Hamlin-Sass/contact/index.php",
+		"/home/chris/Projects/Hamlin-Sass/contact/formfiles/class.smtp.php",
+		"/home/chris/Projects/Hamlin-Sass/formfiles/contact-config.php",
+		"/home/chris/Projects/Hamlin-Sass/scss/app.scss",
+		"/home/chris/Projects/Hamlin-Sass/Gruntfile.js",
+		"/home/chris/Projects/Hamlin-Sass/bower_components/stickUp/example/index.html",
+		"/home/chris/Projects/Hamlin-Sass/css/app.css",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/css/my-app.css",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/scss/_settings.scss",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/scss/app.scss",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/Gruntfile.js",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/bower_components/foundation/js/foundation.js",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/css/.f-topbar",
+		"/home/chris/Projects/Hamlin-Sass/hamlin/bower.json",
+		"/home/chris/Projects/Hamlin/scss/_settings.scss",
+		"/home/chris/Projects/Hamlin/css/foundation.css",
+		"/home/chris/Projects/Hamlin/css/bootstrap.css",
+		"/home/chris/Projects/Hamlin/css/bootstrap.min.css",
+		"/home/chris/Projects/Hamlin/css/main.css",
+		"/home/chris/Projects/Hamlin/index.html",
+		"/home/chris/Projects/the_odin_project/tictactoe/main.rb",
+		"/home/chris/Projects/the_odin_project/dungeon_master/dungeon.rb",
+		"/home/chris/Projects/the_odin_project/blogger/Gemfile",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/authors/_form.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/config/routes.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/controllers/authors_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/controllers/articles_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/controllers/comments_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/controllers/tags_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/controllers/author_sessions_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/layouts/application.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/authors/show.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/author_sessions/new.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/authors/index.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/models/author.rb",
+		"/home/chris/Projects/the_odin_project/blogger/db/migrate/20140713163112_sorcery_core.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/models/article.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/_form.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/show.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/models/tag.rb",
+		"/home/chris/Projects/the_odin_project/blogger/db/migrate/20140712174013_add_paperclip_fields_to_article.rb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/tags/index.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/tags/show.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/comments/_form.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/_comment.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/edit.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/new.html.erb",
+		"/home/chris/Projects/the_odin_project/blogger/app/views/articles/index.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/comments/_comment.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/comments/_form.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/articles/show.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/controllers/comments_controller.rb",
+		"/home/chris/Projects/the_odin_project/blog/app/models/comment.rb",
+		"/home/chris/Projects/the_odin_project/blog/app/models/article.rb",
+		"/home/chris/Projects/the_odin_project/blog/app/controllers/articles_controller.rb",
+		"/home/chris/Projects/the_odin_project/blogger/db/migrate/20140709193059_create_articles.rb",
+		"/home/chris/Projects/the_odin_project/blog/config/routes.rb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/articles/_form.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/articles/edit.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/articles/new.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/articles/index.html.erb",
+		"/home/chris/Projects/the_odin_project/blog/app/views/welcome/index.html.erb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/09_timer/timer_spec.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/09_timer/timer.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/08_book_titles/book.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/08_book_titles/book_titles_spec.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/08_book_titles/book_titles.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/04_pig_latin/pig_latin_spec.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/04_pig_latin/pig_latin.rb",
+		"/home/chris/Projects/the_odin_project/google-homepage/index.html",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/03_simon_says/simon_says.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/03_simon_says/simon_says_spec.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/02_calculator/calculator_spec.rb",
+		"/home/chris/Projects/the_odin_project/ruby_tests/learn_ruby/02_calculator/calculator.rb",
+		"/home/chris/Projects/the_odin_project/odin-project.sublime-project",
+		"/home/chris/railsbridge_ruby/my_program.rb",
+		"/home/chris/Projects/the_odin_project/sketch-pad/css/main.css",
+		"/home/chris/Projects/the_odin_project/sketch-pad/index.html",
+		"/home/chris/Projects/the_odin_project/sketch-pad/js/main.js",
+		"/home/chris/Desktop/Projects/the_odin_project/google-homepage/css/main.css",
+		"/home/chris/Projects/the_odin_project/google-homepage/css/main.css",
+		"/home/chris/railsbridge/test_app/config/routes.rb",
+		"/home/chris/railsbridge/test_app/Gemfile",
+		"/home/chris/Projects/JS Web-Apps/web-app-skeleton/js/app/models/day.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-skeleton/js/app/views/about.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-skeleton/js/app/routers/router.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-skeleton/js/app/views/dash.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-skeleton/js/main.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/js/app/views/counter.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/js/app/views/app.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/js/app/app.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/js/main.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/index.html",
+		"/home/chris/Projects/JS Web-Apps/web-app-views/js/app/app-view.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/js/app/app.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/js/main.js",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/index.html",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/css/main.css",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/css/bootstrap.css",
+		"/home/chris/Projects/JS Web-Apps/web-app-boilerplate/js/App/app.js",
+		"/home/chris/Projects/index.html",
+		"/home/chris/Projects/css/app.css",
+		"/home/chris/Projects/js/app.js",
+		"/opt/sublime_text_3/Icon/48x48/sublime-text.png"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"clinfiic",
+			"alt-border",
+			"border",
+			"s-para",
+			"                        <",
+			"                        ",
+			"class=\"vertical-center\">",
+			"class=\"vertical-center\"",
+			"\">\n",
+			"class=\"vertical-center\">",
+			"class=\"vertical-center\"",
+			"equalizer",
+			"section-footer",
+			"footer",
+			"s-para",
+			"banner-text",
+			"Treatment Services",
+			">\n",
+			"treatment services",
+			"Treatment Services",
+			"@media",
+			"medium-centered",
+			"transition",
+			"big-icon",
+			"5px",
+			"0.5px",
+			"0.5",
+			"footer-padding",
+			"footer-nav",
+			"border",
+			"fafafadfadfa",
+			":",
+			"h5",
+			"realbig",
+			"use_name",
+			"form",
+			"Get an Appointment",
+			"h4",
+			"D70000",
+			"xl",
+			"topbar",
+			"font-size",
+			"max-width",
+			"max",
+			"alt-border",
+			"height",
+			"medium-range",
+			"get an appointment",
+			"contact",
+			"large",
+			"contact-anhor",
+			"scrollto",
+			"60",
+			"500",
+			"service-icon",
+			"service",
+			"primary-color",
+			"scale-color",
+			"topbar",
+			"global-radius",
+			"button",
+			"magellan",
+			"services",
+			"Services",
+			"services",
+			"li",
+			"});",
+			"[data-magellan-expedition], [data-magellan-expedition-clone]",
+			"hpc-navy",
+			"global-radius",
+			"button groups",
+			".f-topbar",
+			"topbar.data",
+			"fixed",
+			"primary",
+			"left",
+			"active",
+			"body-font-family",
+			"body",
+			"topbar-bg-color",
+			"color",
+			"($topbar-bg-color",
+			"$topbar-bg-color",
+			"color",
+			"($topbar-bg-color",
+			"$topbar-bg-color",
+			"top bar",
+			"@media",
+			".toggle-topbar",
+			".menu-icon",
+			"color",
+			"navbar color",
+			"navbar color]",
+			"navbar color",
+			"navbar",
+			"get_coorindates",
+			"get_coordinates",
+			"place_token",
+			"find_position",
+			"@board",
+			"]]\n",
+			"get_coorindates",
+			"str",
+			"v",
+			"word",
+			"0",
+			"this",
+			"%;",
+			";\n",
+			"About",
+			"about",
+			"CounterView",
+			"about",
+			"AboutView",
+			"CounterView",
+			"itemIsCrossed",
+			"');\n",
+			"self.items",
+			"alert",
+			");\n",
+			"elf.count",
+			"self.count",
+			"count"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hpc.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
