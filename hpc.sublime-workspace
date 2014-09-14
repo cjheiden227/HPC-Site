@@ -263,6 +263,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "css/my-app.css",
+			"settings":
+			{
+				"buffer_size": 9687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 16489,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 1385,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -291,10 +315,10 @@
 	},
 	"file_history":
 	[
+		"/home/chris/Projects/Hamlin-Sass/scss/_settings.scss",
 		"/home/chris/Projects/my_gulp_project/gulpfile.js",
 		"/home/chris/Projects/Hamlin-Sass/css/my-app.css",
 		"/home/chris/Projects/Hamlin-Sass/index.html",
-		"/home/chris/Projects/Hamlin-Sass/scss/_settings.scss",
 		"/home/chris/Projects/Hamlin-Sass/foundation-icons/foundation-icons.css",
 		"/home/chris/Projects/Hamlin-Sass/foundation-icons/preview.html",
 		"/home/chris/Projects/Hamlin-Sass/js/app.js",
@@ -420,6 +444,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$white",
+			"white",
+			".mapdescription p",
 			"clinfiic",
 			"alt-border",
 			"border",
@@ -560,8 +587,98 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "css/my-app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5086,
+								5086
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4536.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1167.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
