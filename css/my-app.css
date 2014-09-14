@@ -260,7 +260,7 @@ div>.big-icon{
 	top: 45%;
 	width: 100%;
 	font-size: 1.5rem;
-	opacity: 0.75;
+	opacity: .85;
 
 
 }
@@ -285,6 +285,7 @@ div>.big-icon{
 
 .mapWrap:hover .initial-title {
   visibility: hidden;
+
 }
 
 .map-target{
