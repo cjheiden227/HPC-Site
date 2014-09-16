@@ -174,7 +174,6 @@ body{
 }
 
 .alt-button{
-	margin: 20px 0 20px 0;
 	color:#0b1042;
 	background-color: #EBECFF !important;
 	border: 2px solid #0b1042;
@@ -232,6 +231,10 @@ div>.big-icon{
 }
 
 .margin-top-40{
+	margin-top: 40px;
+}
+
+.margin-bottom-40{
 	margin-top: 40px;
 }
 
