@@ -244,6 +244,7 @@ div>.big-icon{
 	margin-top: 60px;
 }
 
+
 #pane{
 	border-bottom: 1px dotted #6C6F8D;
 	margin-bottom: 40px;
@@ -466,12 +467,16 @@ footer{
 	h1{
 		font-size: 1.5rem !important;
 	}
+	
 	h2{
 		font-size: 1.25rem;
 	}
 
 	h3{
 		font-size: 1.1rem;
+	}
+	#upperpane h4{
+		font-size: .85rem;
 	}
 
 	h5{
