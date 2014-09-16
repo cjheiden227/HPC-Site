@@ -248,7 +248,7 @@ div>.big-icon{
 	border-bottom: 1px dotted #6C6F8D;
 	margin-bottom: 40px;
 }
-#pane>li, #upperpane>li, .title>li{
+#pane>li, #upperpane>li{
 	border-right: 1px dotted #6C6F8D;
 }
 
@@ -257,7 +257,7 @@ div>.big-icon{
 	padding-bottom: 0;
 }
 
-#pane>li:last-child, #upperpane>li:last-child, .title>li:last-child{
+#pane>li:last-child, #upperpane>li:last-child{
 	border-right: none;
 }
 
@@ -437,6 +437,11 @@ footer{
 	}
 
 
+	.banner-sub>p{
+		font-size: .75rem;
+	}
+
+
 	footer{
 		height: 25%;
 	}
@@ -456,6 +461,21 @@ footer{
 	button.large, .button.large{
 		padding: .9rem 2.025rem .9625rem;
 		font-size: .9rem;
+	}
+
+	h1{
+		font-size: 1.5rem !important;
+	}
+	h2{
+		font-size: 1.25rem;
+	}
+
+	h3{
+		font-size: 1.1rem;
+	}
+
+	h5{
+		font-size: .65rem;
 	}
 
 	footer{
@@ -650,6 +670,13 @@ footer{
 
 	}
 
+	.s-para{
+		font-size: .9rem;
+	}
+
+	.title h3{
+		font-size: 1.5rem;
+	}
 	.alt-border{
 		border: none;
 	}
