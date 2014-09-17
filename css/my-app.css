@@ -158,6 +158,9 @@ body{
 	margin-bottom: 20px !important;
 }
 
+.s-f-container{
+	min-height: 200px;
+}
 .section-footer{
 	margin-top: 40px;
 	background-color: #0b1042;
@@ -169,7 +172,7 @@ body{
 }
 
 .section-footer-link:hover{
-
+	color: #fff !important;
 	text-decoration: underline !important;
 }
 
@@ -196,9 +199,9 @@ body{
 .arrow-down {
 	width: 0; 
 	height: 0; 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #EBECFF;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 40px solid #EBECFF;
 	margin-left: auto;
 	margin-right: auto
 }
