@@ -211,6 +211,17 @@ body{
 	margin-right: auto
 }
 
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 40px solid #EBECFF;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
 .big-icon{
 	border: 1px solid #0b1042;
 	-webkit-box-shadow: 1px 1px 1px 0px rgba(11,16,66,1);
