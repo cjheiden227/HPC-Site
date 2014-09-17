@@ -135,12 +135,12 @@ body{
 	text-align: center;
 }
 
-.title>li{
+.services{
 	display: table;
 
 }
 
-.title h3, .title h4{
+.services p{
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -193,7 +193,7 @@ body{
 }
 
 div>.big-icon{
-	max-width: 85%;
+	max-width: 70%;
 
 }
 
@@ -224,7 +224,7 @@ div>.big-icon{
 }
 
 .s-para{
-	padding-top: 10px;
+
 	padding-left: 2.5%;
 	padding-right: 2.5%;
 	font-variant: normal;
@@ -235,7 +235,7 @@ div>.big-icon{
 }
 
 .margin-bottom-40{
-	margin-top: 40px;
+	margin-bottom: 40px !important;
 }
 
 .padding-20, .padding-20>li{
