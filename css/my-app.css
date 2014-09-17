@@ -164,13 +164,13 @@ body{
 
 }
 
-.section-footer-text{
+.section-footer-text, .section-footer-link p{
 	color: #fff !important;
 }
 
 .section-footer-link:hover{
 
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .section-footer-logo{
