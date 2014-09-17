@@ -149,7 +149,7 @@ body{
 }
 
 .header{
-	margin-top: 80px;
+	margin-top: 40px;
 	border-top: 1px solid #6C6F8D;
 	border-bottom: 1px solid #6C6F8D;
 }
@@ -216,7 +216,7 @@ body{
 	height: 0; 
 	border-left: 40px solid transparent;
 	border-right: 40px solid transparent;
-	border-bottom: 40px solid #EBECFF;
+	border-top: 40px solid #0b1042;
 	margin-left: auto;
 	margin-right: auto
 }
