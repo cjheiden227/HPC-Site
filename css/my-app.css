@@ -161,10 +161,15 @@ body{
 .s-f-container{
 	min-height: 200px;
 }
+
 .section-footer{
 	margin-top: 40px;
 	background-color: #0b1042;
 
+}
+
+.section-footer p{
+	font-size: .9rem;
 }
 
 .section-footer-text, .section-footer-link p{
