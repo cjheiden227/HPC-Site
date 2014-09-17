@@ -135,6 +135,9 @@ body{
 	text-align: center;
 }
 
+.service-row, .services {
+	height: 100%;
+}
 .services{
 	display: table;
 
@@ -157,6 +160,12 @@ body{
 
 .section-footer{
 	margin-top: 40px;
+	background-color: #0b1042;
+
+}
+
+.section-footer-text{
+	color: #fff !important;
 }
 
 .section-footer-link:hover{
@@ -173,7 +182,7 @@ body{
 	/*border-bottom: 1px solid #9D9FB3; */
 }
 
-.alt-button{
+/*.alt-button{
 	color:#0b1042;
 	background-color: #EBECFF !important;
 	border: 2px solid #0b1042;
@@ -182,7 +191,7 @@ body{
 .alt-button:hover{
 	color:#0b1042;
 	background-color: #BCBCCC !important;
-}
+}*/
 
 .big-icon{
 	border: 1px solid #0b1042;
@@ -219,7 +228,7 @@ div>.big-icon{
 }
 
 .show-for-small-only div>.big-icon{
-	max-width: 100%;
+	max-width: 75%;
 
 }
 
@@ -233,21 +242,19 @@ div>.big-icon{
 
 }
 
-.s-para-left{
+.s-para-left, .s-para-right{
 	font-variant: normal;
-	padding-left: 15%;
-	/*padding-right: 20%;*/
-}
 
-.s-para-right{
-	font-variant: normal;
-	padding-right: 10%;
-/*	padding-left: 20%;*/
+	/*padding-right: 20%;*/
 }
 
 
 .margin-top-40{
-	margin-top: 40px;
+	margin-top: 40px !important;
+}
+
+.margin-top-15{
+	margin-top: 15px !important;
 }
 
 .margin-bottom-40{
@@ -520,6 +527,20 @@ footer{
 
 	.banner-sub>p{
 		font-size: .85rem;
+	}
+
+	.show-for-small-only .s-para{
+		padding: 0;
+	}
+
+	.show-for-small-only div>.big-icon{
+		max-width: 100%;
+
+	}
+
+	.show-for-small-only p{
+		font-size: .9rem;
+
 	}
 
 	.map-target{
