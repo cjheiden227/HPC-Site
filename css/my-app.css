@@ -162,6 +162,9 @@ body{
 	min-height: 200px;
 }
 
+.s-f-container .divider{
+	width: 100%;
+}
 .section-footer{
 	margin-top: 40px;
 	background-color: #0b1042;
@@ -176,7 +179,7 @@ body{
 	color: #fff !important;
 }
 
-.section-footer-link:hover{
+.section-footer-link:hover, .section-footer-text>a:hover{
 	color: #fff !important;
 	text-decoration: underline !important;
 }
@@ -273,6 +276,11 @@ div>.big-icon{
 
 .margin-top-40{
 	margin-top: 40px !important;
+}
+
+.margin-top-20{
+	margin-top: 20px !important;
+
 }
 
 .margin-top-15{
@@ -466,7 +474,7 @@ footer{
 }
 
 .contact-form{
-	height: 550px;
+	height:750px;
 }
 
 .footer-shadow{

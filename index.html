@@ -31,7 +31,6 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </section>
-      </div>
       </ul> 
      </nav>
    </div>
@@ -161,43 +160,32 @@
                       </p>
                     
                 </div>
-              
-              <div class="row">
-                <div class="small-12 text-center columns">
-                  
-                <h3>
-                  Any questions? <br>Need an appointment?
-                </h3>
-                    <a href="#contact-form" class="margin-top-40 margin-bottom-40 button radius large">Contact the Center</a>              
-                </div>
-              </div>
-               <div class="row">
-                <div class="section-footer small-5 small-centered columns">
-                  <a class="section-footer-link" href="#services">
-                    <img class="section-footer-logo" src="img/logo_alt.png" />
-                    <p><span>Back to Top</span></p>
-                  </a>                    
-                </div>
-              </div>
             </div>
           </div>
           <!-- End Small Screen Services -->
 
           </div>
         </div>
-        <div class="s-f-container section-footer show-for-medium-up fullWidth row">
+        <div class="s-f-container section-footer fullWidth row">
           <div class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" >
               <polygon points="0,0 80,0 40, 40" fill="#EBECFF" fill-opacity="1">
             </svg>
           </div>
           <div class="margin-top-40 small-12 text-center columns">
-
+          <div class="show-for-medium-up">
             <h3 class="section-footer-text">
-              <img width="50" src="img/squigs(alt).png" />
+              <img class width="50" src="img/squigs(alt).png" />
               Any questions? Need an appointment? 
               <img width="50" src="img/squigs(alt).png" />
             </h3>
+          </div>
+          <div class="show-for-small-only">
+              <h3 class="section-footer-text">
+              Any questions? <br>
+              Need an appointment? 
+            </h3>
+          </div>
             <a href="#contact-form" class="margin-top-40 margin-bottom-40 alt-button button radius large">Contact the Center</a>             
           </div>
           <div class="small-12 columns">
@@ -298,7 +286,7 @@
         </div>
       </div>
       </div>
-      <div class="s-f-container section-footer show-for-medium-up fullWidth row">
+      <div class="s-f-container section-footer fullWidth row">
            <div class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" >
               <polygon points="0,0 80,0 40, 40" fill="#EBECFF" fill-opacity="1">
@@ -307,6 +295,8 @@
           <div class="margin-top-40 small-12 columns">
             <div class="row">
               <div class="medium-10 large-7 columns small-centered">
+              <h3 class="section-footer-text">Click Below For</h3>
+              <div class="divider columns small-centered"></div>
                 <div class="row">
                   <div class="small-6 columns"> 
 
@@ -336,9 +326,37 @@
                   </div>
                   <div class="small-6 columns">
                     <h4 class="section-footer-text">Directions to Long Beach</h4>
-                    <h5 class="section-footer-text">From the 710 S</h5>
-                    <h5 class="section-footer-text">From the 710 N</h5>
-                    <h5 class="section-footer-text">From the 405</h5>
+                    <h5 class="section-footer-text"><a href="#" data-reveal-id="lb710n">From the 710 N</a> </h5>
+                    <div id="lb710n" class="medium reveal-modal" data-reveal> 
+                    <h2 class="text-center">From the 710 N</h2>     
+                    <p class="text-center section-footer-text">
+                      Take the Del Amo Blvd E exit.<br>
+                      Merge onto W Del Amo Blvd. <br>
+                      Turn right onto Long Beach Blvd. <br>
+                      Continue on Long Beach Blvd. for about one mile.<br>
+                      The Center is on your left.
+                    </p> <a class="close-reveal-modal">&#215;</a> 
+                    </div>
+                     <h5 class="section-footer-text"><a href="#" data-reveal-id="lb710s">From the 710 S</a> </h5>
+                    <div id="lb710s" class="medium reveal-modal" data-reveal> 
+                    <h2 class="text-center">From the 710 S</h2>     
+                    <p class="text-center section-footer-text">
+                      Take the Long Beach Blvd S exit. <br>
+                      Continue on Long Beach Blvd. for about 2 miles. <br>
+                      The Center is on your left.
+                    </p> <a class="close-reveal-modal">&#215;</a> 
+                    </div>
+                    <h5 class="section-footer-text"><a href="#" data-reveal-id="lb405">From the 405</a> </h5>
+                    <div id="lb405" class="medium reveal-modal" data-reveal> 
+                    <h2 class="text-center">From the 405</h2>     
+                    <p class="text-center section-footer-text">
+                      Take the Long Beach Blvd exit. <br>
+                      Follow signs for Bixby Knolls.  <br>
+                      Merge onto Long Beach Blvd <br>
+                      Continue on Long Beach Blvd. for about 1 and a half miles. <br>
+                      The Center is on your right.
+                    </p> <a class="close-reveal-modal">&#215;</a> 
+                    </div>
                   </div>
                 </div>
               </div>
@@ -346,7 +364,7 @@
 
             <div class="row">
               <div class="small-5 small-centered columns">
-                <div class=" margin-bottom-40 section-footer-link">
+                <div class="margin-top-20 margin-bottom-40 section-footer-link">
                   <a href="#locations">
                     <img class="section-footer-logo" src="img/logo_alt.png" />
                     <p>Back to Top </p>
