@@ -179,7 +179,11 @@ body{
 	color: #fff !important;
 }
 
-.section-footer-link:hover, .section-footer-text>a:hover{
+.section-footer-text .button{
+	margin: 0;
+}
+
+.section-footer-link:hover{
 	color: #fff !important;
 	text-decoration: underline !important;
 }
