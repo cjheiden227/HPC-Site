@@ -1,4 +1,6 @@
-
+html{
+	overflow-x: hidden;
+}
 body{
 	font-variant: small-caps;
 	width: 100%;
@@ -522,6 +524,11 @@ footer{
 	button.large, .button.large{
 		padding: .9rem 2.025rem .9625rem;
 		font-size: .9rem;
+	}
+
+	#locations .section-footer button.large, #locations .section-footer .button.large{
+
+		font-size: .8rem;
 	}
 
 	h1{
