@@ -127,7 +127,7 @@ body{
 }
 
 #sub_content h1, #sub_content h2, #sub_content h3, #sub_content h4, #sub_content h5, #sub_content h6,
-#sub_content p, #sub_content span{
+#sub_content p, #sub_content span {
 	color: #0b1042;
 }
 
@@ -149,7 +149,7 @@ body{
 }
 
 .header{
-	margin-top: 40px;
+	margin-top: 60px;
 	border-top: 1px solid #6C6F8D;
 	border-bottom: 1px solid #6C6F8D;
 }
@@ -172,7 +172,7 @@ body{
 	font-size: .9rem;
 }
 
-.section-footer-text, .section-footer-link p{
+.section-footer-text, .section-footer-link p, .section-footer a{
 	color: #fff !important;
 }
 
@@ -184,6 +184,7 @@ body{
 .section-footer-logo{
 	width: 50%;
 }
+
 
 .content{
 	margin-top: 30px;
