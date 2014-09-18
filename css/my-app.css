@@ -201,26 +201,18 @@ body{
 	background-color: #BCBCCC !important;
 }*/
 
-.arrow-down {
-	width: 0; 
-	height: 0; 
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-	border-top: 40px solid #EBECFF;
+svg{
+	display: block;
 	margin-left: auto;
 	margin-right: auto
 }
-
-.arrow-up {
-	width: 0; 
-	height: 0; 
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-	border-top: 40px solid #0b1042;
-	margin-left: auto;
-	margin-right: auto
+.arrow {
+	 height: 41px; 
+	 width: 82px; 
+	 margin-left: auto; 
+	 margin-right: auto;
+	 margin-top: -1px;
 }
-
 
 .big-icon{
 	border: 1px solid #0b1042;
